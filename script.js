@@ -1,4 +1,5 @@
-const apiUrl = 'http://localhost:5000/api/weather/'; // Adjust based on your deployment
+const apiUrl = 'http://localhost:3000/api/weather/';
+
 
 function getWeather() {
     const location = document.getElementById('locationInput').value;
