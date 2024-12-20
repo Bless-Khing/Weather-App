@@ -16,4 +16,4 @@ def get_weather(city):
         return jsonify({"error": "City not found"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=3000, debug=True)  # Ensure you're running on port 3000
